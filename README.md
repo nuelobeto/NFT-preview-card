@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/nft-preview-card-component-built-with-html-sass-and-flexbox-IJ_q7OOw3)
-- Live Site URL: [](https://nuelobeto.github.io/NFT-preview-card/)
+- Solution URL: [view my solution here](https://www.frontendmentor.io/solutions/nft-preview-card-component-built-with-html-sass-and-flexbox-IJ_q7OOw3)
+- Live Site URL: [check out the project here](https://nuelobeto.github.io/NFT-preview-card/)
 
 ## My process
 
