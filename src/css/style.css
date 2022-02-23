@@ -1,0 +1,162 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  max-width: 100vw;
+  height: 100vh;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #8bacda;
+}
+
+.container {
+  max-width: 1440px;
+  min-width: 375px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.component {
+  background-color: #14253d;
+  padding: 25px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.component .img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.component .img svg {
+  position: absolute;
+  display: none;
+}
+
+.component .img:hover svg {
+  display: block;
+}
+
+.component .section__II {
+  padding: 25px 0 20px;
+}
+
+.component .section__II a {
+  color: white;
+}
+
+.component .section__II a:hover {
+  color: #00fff7;
+}
+
+.component .section__II a.active {
+  color: #00fff7;
+}
+
+.component .section__II p {
+  margin-top: 15px;
+  line-height: 1.8;
+  font-size: 17px;
+}
+
+.component .section__II div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #2f415b;
+}
+
+.component .section__II div span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.component .section__II div span :nth-child(2) {
+  margin-left: 8px;
+}
+
+.component .section__II div span h4 {
+  color: #00fff7;
+}
+
+.component .section__II div span p {
+  margin: 0;
+  line-height: 0;
+}
+
+.component .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.component .footer .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin-right: 16px;
+}
+
+.component .footer a {
+  color: white;
+}
+
+.component .footer a:hover {
+  color: #00fff7;
+}
